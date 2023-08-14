@@ -1,6 +1,11 @@
 module.exports = {
   reactStrictMode: false,
+  output: 'export',
+  distDir: '_static',
   images: {
-    domains: ['avatars.githubusercontent.com'],
+    unoptimized: true
   },
+  // images: {
+    // domains: ['avatars.githubusercontent.com'],
+  // },
 };
