@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm a full stack developer with 8 years of experience specializing in React. I have a passion for creating high-quality user interfaces and enjoy tackling complex problems. I'm constantly learning and exploring new technologies to improve my skills and deliver the best possible solutions.",
   resumeLink:
-    'https://drive.google.com/file/d/1Piu1rIo2qRglss6LcPK-MsisNoWpH5wA/view?usp=sharing',
+    'https://drive.google.com/file/d/1aln806e8wC-dm8R7w9bO1o8RGRCO6aUz/view?usp=sharing',
 };
 
 export const openSource = {
