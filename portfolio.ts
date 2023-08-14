@@ -29,9 +29,8 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   linkedin: 'https://www.linkedin.com/in/czy30121/',
   github: 'https://github.com/czy30121',
-  instagram: 'https://www.instagram.com/czy30121',
-  facebook: 'https://www.facebook.com/czy30121',
-  twitter: 'https://twitter.com/czy30121',
+  telegram: '@czy3121',
+  skype: 'live:.cid.e35b427117f14ab7',
 };
 
 export const skillsSection: SkillsSectionType = {

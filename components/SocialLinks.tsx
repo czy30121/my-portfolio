@@ -47,35 +47,35 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
-      {socialLinks.instagram && (
+      {socialLinks.telegram && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
           color="instagram"
-          href={socialLinks.instagram}
+          href={socialLinks.telegram}
           target="_blank"
           rel="noopener"
           aria-label="Instagram"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-instagram" />
+            <i className="fa fa-telegram" />
           </span>
         </Button>
       )}
-      {socialLinks.facebook && (
+      {socialLinks.skype && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
           color="facebook"
-          href={socialLinks.facebook}
+          href={socialLinks.skype}
           target="_blank"
           rel="noopener"
-          aria-label="Facebook"
+          aria-label="Skype"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-facebook-square" />
+            <i className="fa fa-skype" />
           </span>
         </Button>
       )}
-      {socialLinks.twitter && (
+      {/* {socialLinks.twitter && (
         <Button
           className="btn-icon-only rounded-circle"
           color="twitter"
@@ -88,7 +88,7 @@ const SocialLinks = () => {
             <i className="fa fa-twitter" />
           </span>
         </Button>
-      )}
+      )} */}
     </div>
   );
 };
