@@ -69,55 +69,7 @@ const Navigation = () => {
                 </Row>
               </div>
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                {socialLinks.facebook && (
-                  <NavItem>
-                    <NavLink
-                      rel="noopener"
-                      aria-label="Facebook"
-                      className="nav-link-icon"
-                      href={socialLinks.facebook}
-                      target="_blank"
-                    >
-                      <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                )}
-                {socialLinks.instagram && (
-                  <NavItem>
-                    <NavLink
-                      rel="noopener"
-                      aria-label="Instagram"
-                      className="nav-link-icon"
-                      href={socialLinks.instagram}
-                      target="_blank"
-                    >
-                      <i className="fa fa-instagram" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                )}
-                {socialLinks.github && (
-                  <NavItem>
-                    <NavLink
-                      rel="noopener"
-                      aria-label="Github"
-                      className="nav-link-icon"
-                      href={socialLinks.github}
-                      target="_blank"
-                    >
-                      <i className="fa fa-github" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Github
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                )}
-                {socialLinks.linkedin && (
+              {socialLinks.linkedin && (
                   <NavItem>
                     <NavLink
                       rel="noopener"
@@ -133,7 +85,55 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
-                {socialLinks.twitter && (
+                 {socialLinks.github && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Github"
+                      className="nav-link-icon"
+                      href={socialLinks.github}
+                      target="_blank"
+                    >
+                      <i className="fa fa-github" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Github
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
+                {socialLinks.telegram && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Facebook"
+                      className="nav-link-icon"
+                      href={socialLinks.telegram}
+                      target="_blank"
+                    >
+                      <i className="fa fa-telegram" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Facebook
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
+                {socialLinks.skype && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Instagram"
+                      className="nav-link-icon"
+                      href={socialLinks.skype}
+                      target="_blank"
+                    >
+                      <i className="fa fa-skype" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Instagram
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
+                {/* {socialLinks.twitter && (
                   <NavItem>
                     <NavLink
                       rel="noopener"
@@ -148,7 +148,7 @@ const Navigation = () => {
                       </span>
                     </NavLink>
                   </NavItem>
-                )}
+                )} */}
               </Nav>
             </UncontrolledCollapse>
           </Container>
