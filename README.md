@@ -84,7 +84,7 @@ Iconify Icons are used in skill section. You can find all the icons here: [Iconi
 
 ## Author
 
-👤 **Tony Doe**
+👤 **Akira Chan**
 
 - Website: https://crazyportfolio.web.app
 - Github: [@czy30121](https://github.com/czy30121)

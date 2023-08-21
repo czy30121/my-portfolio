@@ -12,12 +12,12 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Tony Doe',
-  title: "Hi all, I'm Tony",
+  name: 'Akira Chan',
+  title: "Hi all, I'm Akira",
   description:
     "I'm a full stack developer with 8 years of experience specializing in React. I have a passion for creating high-quality user interfaces and enjoy tackling complex problems. I'm constantly learning and exploring new technologies to improve my skills and deliver the best possible solutions.",
   resumeLink:
-    'https://drive.google.com/file/d/1AeJl98-ULZwegxeur5xnQ8PdP7zZ2P2M/view?usp=sharing',
+    'https://drive.google.com/file/d/1kFYfkUt7m1SbVeozJAZ-czeBVoej3ARV/view?usp=sharing',
 };
 
 export const openSource = {
@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  linkedin: 'https://www.linkedin.com/in/czy30121/',
+  linkedin: 'https://www.linkedin.com/in/bright30121/',
   github: 'https://github.com/czy30121',
   telegram: '@czy3121',
   skype: 'live:.cid.e35b427117f14ab7',
@@ -261,7 +261,7 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Temple University',
+    schoolName: 'University of Tokyo',
     subHeader: 'Bachelor of Computer Science',
     duration: 'From May 2011 to May 2015',
     desc: "Here's a some of my university experience.",
@@ -277,53 +277,54 @@ export const educationInfo: EducationType[] = [
 export const experience: ExperienceType[] = [
   {
     role: 'Full Stack Developer',
-    company: 'Mifort',
-    companyLogo: '/img/icons/common/mifort.png',
+    company: 'GEEKS LTD',
+    companyLogo: '/img/icons/common/geek.png',
     date: 'July 2022 - April 2023',
     desc: '',
     descBullets: [
-    	"Revamped a client's e-commerce website using WordPress and WooCommerce, resulting in a 50% increase in online sales and a 20% boost in conversion rates.",
-      "Designed and implemented a custom React-based product filtering system, enabling users to find products more efficiently and resulting in a 30% increase in average order value.",
-      "Built a real-time chat app using React and Material-UI, handling over 100 concurrent users and achieving an average response time of less than 200ms."
+    	"Developed a React-based mobile application for a fitness startup,resulting in over 50,000 downloads and a 4.5-star rating on app stores.",
+      "Implemented a custom React Native component library, saving 30% of development time and ensuring consistency across multiple platforms.",
+      "Designed and built a real-time collaboration tool using React and Firebase, used by a team of 50 remote employees, resulting in a 40% increase in productivity and a 20% decrease in communication errors.",
+      "Developed a React-based dashboard for a financial services company, handling millions of data points and providing real-time insights, contributing to a 15% increase in revenue."
     ],
   },
   {
     role: 'React Developer',
-    company: 'Sage',
-    companyLogo: '/img/icons/common/sage.png',
+    company: 'INFLUENTIAL SOFTWARE',
+    companyLogo: '/img/icons/common/influential.png',
     date: 'March 2019 - May 2022',
     desc: '',
     descBullets: [
-      "Created a React application for managing customer orders, resulting in a 25% increase in order processing efficiency and a 15% decrease in customer support inquiries.",
-      "Implemented Redux for state management, leading to a 40% reduction in API requests and a seamless user experience across multiple screens.",
-      "Optimized the application's SEO by implementing server-side rendering, resulting in a 30% increase in organic search  traffic and improved search engine rankings.",
-      "Worked closely with the backend team to optimize API calls and reduce server response time, resulting in a 60% improvement in API performance and enhanced system scalability."
+      "Developed a React-based e-commerce platform for a retail company, handling over 10,000 customer orders per day and generating $1 million in monthly revenue.",
+      "Implemented GraphQL for efficient data fetching, resulting in a 50% reduction in API response time and a 20% increase in user satisfaction.",
+      "Designed and developed a real-time chat application using React and Socket.io, facilitating communication between 50,000 active users and achieving a 95% customer satisfaction rate.",
+      "Implemented Redux for state management, leading to a 40% reduction in API requests and a seamless user experience across multiple screens."
     ],
   },
   {
     role: 'Full Stack Developer',
-    company: 'EVNE Developers',
-    companyLogo: '/img/icons/common/evne.png',
+    company: 'Sibedge',
+    companyLogo: '/img/icons/common/Sibedge.png',
     date: ' April 2017 - January 2019',
     desc: '',
     descBullets: [
-      "Developed a sleek user interface for a fintech application using React, resulting in a 22% increase in user satisfaction and a 19.2% decrease in bounce rate.",
-      "Implemented responsive design using Bootstrap, leading to a 40% improvement in mobile user experience and a 15% increase in organic traffic.",
-      "Integrated custom Angular components with the existing backend system, reducing page load time by 32%.",
+      "Developed a visually stunning website for a travel agency using React and Node.js, resulting in a 25% increase in online bookings and a revenue growth of $500,000 within the first year.",
+      "Created a responsive web application for a healthcare startup using React and Redux, resulting in a user base of 100,000 and a 40% improvement in patient engagement.",
+      "Implemented a secure payment gateway using Stripe, processing over 10,000 transactions per month and generating $100,000 in revenue within the first quarter.",
       "Created a landing page for a product launch, resulting in a 34% conversion rate and generating $10,000 in sales within the first week.",
     ],
   },
   {
     role: 'Junior Front-end Developer',
-    company: 'TechNerds',
-    companyLogo: '/img/icons/common/technerds.png',
+    company: 'DS Solution',
+    companyLogo: '/img/icons/common/ds solution.png',
     date: 'July 2015 t- January 2017',
     desc: '',
     descBullets: [
-      "Implemented a responsive user interface using Angular, achieving a 22% increase in sales.",
+      "Collaborated with a cross-functional team to design and develop a responsive web application using Angular and Node.js, attracting 1 million monthly active users and generating $500,000 in annual subscription revenue.",
       "Created an interactive e-commerce website with React, leading to a 20% boost in overall sales revenue.",
       "Developed custom plugins for WordPress, such as an e-commerce integration plugin that streamlined the checkout process and increased online sales by 20%.",
-      "Collaborated with the marketing team to create visually appealing and engaging email templates using HTML and CSS, resulting in a 35% increase in click-through rates.",
+      "Created a customized content management system with Drupal, managing a portfolio of 50 websites and increasing monthly traffic by 40%.",
     ],
   },
 ];
@@ -399,19 +400,19 @@ export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Tony Doe',
+  title: 'Akira Chan',
   description:
     'A passionate Full Stack Web Developer.',
-  author: 'Tony Doe',
+  author: 'Akira Chan',
   image: '',
   url: 'https://crazyportfolio.web.app',
   keywords: [
-    'Tony',
-    'Tony Doe',
+    'Akira',
+    'Akira Chan',
     '@czy30121',
     '1czy30121',
     'Portfolio',
-    'Tony Portfolio ',
-    'Tony Doe Portfolio',
+    'Akira Portfolio ',
+    'Akira Chan Portfolio',
   ],
 };
