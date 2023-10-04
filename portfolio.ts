@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm a full stack developer with 8 years of experience specializing in React. I have a passion for creating high-quality user interfaces and enjoy tackling complex problems. I'm constantly learning and exploring new technologies to improve my skills and deliver the best possible solutions.",
   resumeLink:
-    'https://drive.google.com/file/d/1kFYfkUt7m1SbVeozJAZ-czeBVoej3ARV/view?usp=sharing',
+    'https://drive.google.com/file/d/1dtmK2wHwjcO3WZRg1yk7guEU9cyLNPBn/view?usp=sharing',
 };
 
 export const openSource = {
@@ -29,8 +29,8 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   linkedin: 'https://www.linkedin.com/in/bright30121/',
   github: 'https://github.com/czy30121',
-  telegram: '@czy3121',
-  skype: 'live:.cid.e35b427117f14ab7',
+  telegram: '@bright30121',
+  skype: 'https://join.skype.com/invite/sfWmX1jZ7IvT',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -276,75 +276,45 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Full Stack Developer',
-    company: 'GEEKS LTD',
-    companyLogo: '/img/icons/common/geek.png',
-    date: 'July 2022 - April 2023',
-    desc: '',
-    descBullets: [
-    	"Developed a React-based mobile application for a fitness startup,resulting in over 50,000 downloads and a 4.5-star rating on app stores.",
-      "Implemented a custom React Native component library, saving 30% of development time and ensuring consistency across multiple platforms.",
-      "Designed and built a real-time collaboration tool using React and Firebase, used by a team of 50 remote employees, resulting in a 40% increase in productivity and a 20% decrease in communication errors.",
-      "Developed a React-based dashboard for a financial services company, handling millions of data points and providing real-time insights, contributing to a 15% increase in revenue."
-    ],
-  },
-  {
-    role: 'React Developer',
-    company: 'INFLUENTIAL SOFTWARE',
-    companyLogo: '/img/icons/common/influential.png',
-    date: 'March 2019 - May 2022',
-    desc: '',
-    descBullets: [
-      "Developed a React-based e-commerce platform for a retail company, handling over 10,000 customer orders per day and generating $1 million in monthly revenue.",
-      "Implemented GraphQL for efficient data fetching, resulting in a 50% reduction in API response time and a 20% increase in user satisfaction.",
-      "Designed and developed a real-time chat application using React and Socket.io, facilitating communication between 50,000 active users and achieving a 95% customer satisfaction rate.",
-      "Implemented Redux for state management, leading to a 40% reduction in API requests and a seamless user experience across multiple screens."
-    ],
-  },
-  {
-    role: 'Full Stack Developer',
+    role: 'Senior Full Stack Developer',
     company: 'Sibedge',
     companyLogo: '/img/icons/common/Sibedge.png',
-    date: ' April 2017 - January 2019',
+    date: 'From Aug. 2020 to Aug. 2023',
     desc: '',
     descBullets: [
-      "Developed a visually stunning website for a travel agency using React and Node.js, resulting in a 25% increase in online bookings and a revenue growth of $500,000 within the first year.",
-      "Created a responsive web application for a healthcare startup using React and Redux, resulting in a user base of 100,000 and a 40% improvement in patient engagement.",
-      "Implemented a secure payment gateway using Stripe, processing over 10,000 transactions per month and generating $100,000 in revenue within the first quarter.",
-      "Created a landing page for a product launch, resulting in a 34% conversion rate and generating $10,000 in sales within the first week.",
+      "Revamped client's e-commerce site, leading to a 32.3% increase in online sales.",
+      "Designed and implemented custom React product filtering system, resulting in a 43.2% increase in average order value. ",
+      "Built real-time chat app, handling 3000+ concurrent users with an average response time of <150ms."
     ],
   },
   {
-    role: 'Junior Front-end Developer',
-    company: 'DS Solution',
-    companyLogo: '/img/icons/common/ds solution.png',
-    date: 'July 2015 t- January 2017',
+    role: 'Full Stack Developer',
+    company: 'Vention',
+    companyLogo: '/img/icons/common/vention.png',
+    date: 'From Sept. 2016 to Jun. 2020',
     desc: '',
     descBullets: [
-      "Collaborated with a cross-functional team to design and develop a responsive web application using Angular and Node.js, attracting 1 million monthly active users and generating $500,000 in annual subscription revenue.",
-      "Created an interactive e-commerce website with React, leading to a 20% boost in overall sales revenue.",
-      "Developed custom plugins for WordPress, such as an e-commerce integration plugin that streamlined the checkout process and increased online sales by 20%.",
-      "Created a customized content management system with Drupal, managing a portfolio of 50 websites and increasing monthly traffic by 40%.",
+      "Developed sleek fintech UI using React, increasing user satisfaction by 22% and decreasing bounce rate by 19.2%.",
+      "Implemented responsive design with Bootstrap, improving mobile user experience by 40% and organic traffic by 34.3%.",
+      "Integrated Angular components with backend system, reducing page load time by 32%.",
+      "Created product launch landing page, generating $10,000 in sales within first week with 42.5% conversion rate."
+    ],
+  },
+  {
+    role: 'Web Development Intern',
+    company: 'DS Solution',
+    companyLogo: '/img/icons/common/ds solution.png',
+    date: 'From Sept. 2015 to Sept. 2016',
+    desc: '',
+    descBullets: [
+      "Implemented responsive UI with Angular, achieving 26.3% sales increase.",
+      "Created interactive e-commerce site with React, leading to 33.2% boost in sales revenue.",
+      "Developed custom WordPress plugins, streamlining checkout and increasing online sales by 12.5%."
     ],
   },
 ];
 
 export const projects: ProjectType[] = [
-  {
-    name: 'Chatify',
-    desc: 'Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.',
-    github: 'https://github.com/czy30121/react-chat-app',
-  },
-  {
-    name: 'Bits-0f-C0de',
-    desc: 'My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown.',
-    github: 'https://github.com/czy30121/react-blog-app',
-  },
-  {
-    name: 'Editor.io',
-    desc: 'Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage',
-    github: 'https://github.com/czy30121/react-code-editor',
-  },
   {
     name: 'Alma',
     desc: 'An interactive playground for generative graphics. Combine nodes & logic into WebGL shaders - all through an intuitive no-code interface.',
@@ -370,6 +340,21 @@ export const projects: ProjectType[] = [
     desc: "This theme was originally developed for a closed group of authors and not intended for a public release. This is still reflected in the code, which takes several liberties not considered best practice.",
     github: 'https://github.com/czy30121/wordpress-author-theme',
   },
+  {
+    name: 'Chatify',
+    desc: 'Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.',
+    github: 'https://github.com/czy30121/react-chat-app',
+  },
+  {
+    name: 'Bits-0f-C0de',
+    desc: 'My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown.',
+    github: 'https://github.com/czy30121/react-blog-app',
+  },
+  {
+    name: 'Editor.io',
+    desc: 'Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage',
+    github: 'https://github.com/czy30121/react-code-editor',
+  },
 ];
 
 export const feedbacks: FeedbackType[] = [
@@ -379,7 +364,7 @@ export const feedbacks: FeedbackType[] = [
       'Your capacity to promptly comprehend our requirements and deliver top-notch work surpassed our expectations. Your meticulousness, professionalism, and articulate communication were a refreshing change. We eagerly anticipate the opportunity to collaborate with you again.',
   },
   {
-    name: 'Angus Cooper, Australia',
+    name: 'Angus Cooper, USA',
     feedback:
       'Your skills as a full stack developer are truly exceptional. Your ability to understand complex requirements and deliver elegant solutions is a rare talent. We are grateful for your dedication, professionalism, and commitment to excellence.',
   },
@@ -405,7 +390,7 @@ export const seoData: SEODataType = {
     'A passionate Full Stack Web Developer.',
   author: 'Akira Chan',
   image: '',
-  url: 'https://crazyportfolio.web.app',
+  url: 'https://crazyp0rtf0li0.web.app/',
   keywords: [
     'Akira',
     'Akira Chan',

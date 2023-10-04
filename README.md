@@ -92,3 +92,17 @@ Iconify Icons are used in skill section. You can find all the icons here: [Iconi
 
 ## Show your support
 
+## Deploy way
+
+- `npm install -g firebase-tools`
+- `firebase login`
+- `firebase init`
+    * Are you ready to proceed? Y
+    * Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys (space & enter)
+    * what do you want to use your public directory? out
+    * configure as a single-page app: no
+    * Set up automatic builds and deploys with GitHub? no
+    * File out/404.html already exists, Overwrite? y
+    * File out/index.html already exists, Overwrite? y
+- `npm run build` : “build”: “next build && next export”,
+- `firebase deploy --only hosting`
