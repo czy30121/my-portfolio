@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm a full stack developer with 8 years of experience specializing in React. I have a passion for creating high-quality user interfaces and enjoy tackling complex problems. I'm constantly learning and exploring new technologies to improve my skills and deliver the best possible solutions.",
   resumeLink:
-    'https://drive.google.com/file/d/1dtmK2wHwjcO3WZRg1yk7guEU9cyLNPBn/view?usp=sharing',
+    'https://drive.google.com/file/d/1J3y0L2EdFgx4HfrQvFSNNlz3CmqexMej/view?usp=sharing',
 };
 
 export const openSource = {
@@ -29,7 +29,7 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   linkedin: 'https://www.linkedin.com/in/bright30121/',
   github: 'https://github.com/czy30121',
-  telegram: '@bright30121',
+  telegram: '@bright0121',
   skype: 'https://join.skype.com/invite/sfWmX1jZ7IvT',
 };
 
