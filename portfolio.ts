@@ -261,7 +261,7 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'University of Tokyo',
+    schoolName: 'The University of Hong Kong',
     subHeader: 'Bachelor of Computer Science',
     duration: 'From May 2011 to May 2015',
     desc: "Here's a some of my university experience.",
@@ -302,8 +302,8 @@ export const experience: ExperienceType[] = [
   },
   {
     role: 'Web Development Intern',
-    company: 'DS Solution',
-    companyLogo: '/img/icons/common/ds solution.png',
+    company: 'ZENCODE Group',
+    companyLogo: '/img/icons/common/zencode.png',
     date: 'From Sept. 2015 to Sept. 2016',
     desc: '',
     descBullets: [
