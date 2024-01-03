@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm a full stack developer with 8 years of experience specializing in React. I have a passion for creating high-quality user interfaces and enjoy tackling complex problems. I'm constantly learning and exploring new technologies to improve my skills and deliver the best possible solutions.",
   resumeLink:
-    'https://drive.google.com/file/d/1J3y0L2EdFgx4HfrQvFSNNlz3CmqexMej/view?usp=sharing',
+    'https://drive.google.com/file/d/1Ga_PI6Lsivuc6QlotTYbSeVydInzpYDu/view?usp=drive_link',
 };
 
 export const openSource = {
@@ -29,7 +29,7 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   linkedin: 'https://www.linkedin.com/in/bright30121/',
   github: 'https://github.com/czy30121',
-  telegram: '@bright0121',
+  telegram: '@bright_3121',
   skype: 'https://join.skype.com/invite/sfWmX1jZ7IvT',
 };
 
@@ -279,9 +279,11 @@ export const experience: ExperienceType[] = [
     role: 'Senior Full Stack Developer',
     company: 'Sibedge',
     companyLogo: '/img/icons/common/Sibedge.png',
-    date: 'From Aug. 2020 to Aug. 2023',
+    date: 'From Aug. 2020 to Nov. 2023',
     desc: '',
     descBullets: [
+      "Elevated real-time product data accuracy by 97% through efficient web scraping with Playwright and Python, enhancing overall user experience.",
+      "Led an AI open platform using Next.js, Node.js and Python, driving a 16.4% surge in user engagement, empowering the creation and transaction of largescale AI projects.",
       "Revamped client's e-commerce site, leading to a 32.3% increase in online sales.",
       "Designed and implemented custom React product filtering system, resulting in a 43.2% increase in average order value. ",
       "Built real-time chat app, handling 3000+ concurrent users with an average response time of <150ms."
