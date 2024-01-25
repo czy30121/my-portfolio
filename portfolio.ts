@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm a full stack developer with 8 years of experience specializing in React. I have a passion for creating high-quality user interfaces and enjoy tackling complex problems. I'm constantly learning and exploring new technologies to improve my skills and deliver the best possible solutions.",
   resumeLink:
-    'https://drive.google.com/file/d/1Ga_PI6Lsivuc6QlotTYbSeVydInzpYDu/view?usp=drive_link',
+    'https://drive.google.com/file/d/1EtHeQetazSv6TBP1KjjnhT4lhhmPvpmH/view?usp=sharing',
 };
 
 export const openSource = {
@@ -282,11 +282,14 @@ export const experience: ExperienceType[] = [
     date: 'From Aug. 2020 to Nov. 2023',
     desc: '',
     descBullets: [
-      "Elevated real-time product data accuracy by 97% through efficient web scraping with Playwright and Python, enhancing overall user experience.",
-      "Led an AI open platform using Next.js, Node.js and Python, driving a 16.4% surge in user engagement, empowering the creation and transaction of largescale AI projects.",
-      "Revamped client's e-commerce site, leading to a 32.3% increase in online sales.",
-      "Designed and implemented custom React product filtering system, resulting in a 43.2% increase in average order value. ",
-      "Built real-time chat app, handling 3000+ concurrent users with an average response time of <150ms."
+      "Led the Migration of the NFT auction marketplace from Monolithic to Micro Frontend architecture, cutting infrastructure costs by 58% and enhancing platform scalability.",
+      "Implemented React technologies, reducing codebase by 45% and accelerating development with Next.js for SSR.",
+      "Introduced Redux Toolkit, decreasing bugs by 35%, and optimized performance with Code splitting, Lazy loading, and Memorization, resulting in a 60% improvement in page load times.",
+      "Utilized TypeScript and Suspense for robust and efficient development, and implemented real-time features with React and WebSocket, boosting user engagement by 50%.",
+      "Ensured platform stability through Jest testing, reducing critical bugs by 40%, and improved SEO with SSR for a 50% increase in organic traffic.",
+      "Demonstrated backend expertise with Nest.js, constructing RESTful APIs with modular and dependency- injection principles.",
+      "Utilized Nest.js decorators for secure routing, validation, and authentication. Leveraged Nest.js' caching for optimized API response times, reducing latency.",
+      "Technologies: React, Micro Frontend Architecture, Next.js, SSR, Redux, Code splitting, Lazy loading, Suspense for data fetching, WebSocket, Jest, Restful API, Nest.js, Caching.",
     ],
   },
   {
@@ -296,10 +299,15 @@ export const experience: ExperienceType[] = [
     date: 'From Sept. 2016 to Jun. 2020',
     desc: '',
     descBullets: [
-      "Developed sleek fintech UI using React, increasing user satisfaction by 22% and decreasing bounce rate by 19.2%.",
-      "Implemented responsive design with Bootstrap, improving mobile user experience by 40% and organic traffic by 34.3%.",
-      "Integrated Angular components with backend system, reducing page load time by 32%.",
-      "Created product launch landing page, generating $10,000 in sales within first week with 42.5% conversion rate."
+      "Played a pivotal role in developing AI systems with Next.js, facilitating rapid dataset creation and top-tier ML model construction. ",
+      "Implemented a Micro frontend architecture, achieving a 20% improvement in Code maintainability and scalability, incorporating features like File-based routing and SSR. ",
+      "Optimized UX, leading to a 25% reduction in Page load times through SSG, Code splitting, and Dynamic imports. ",
+      "Emphasized Security by minimizing Third-party dependencies, mitigating vulnerabilities, and ensuring a lean codebase. ",
+      "Managed complex application states using Redux, implementing Caching strategies that resulted in a 15% improvement in overall performance. ",
+      "Showcased backend proficiency using Python frameworks Django and Flask, designing and implementing RESTful APIs. ",
+      "Applied ORM techniques for database interactions, contributing to a 30% improvement in data management and retrieval efficiency. ",
+      "Contributed significantly to the overall System architecture, implementing Authentication, Authorization, and server-side caching strategies, resulting in a 25% enhancement in system cohesiveness. ",
+      "Techniques: Rapid dataset creation, ML model construction, File-based routing, SSR, Scalability, SSG, Code splitting, Dynamic imports, Vulnerabilities, Lean codebase, Caching strategies, Overall performance improvement, Django, Flask, RESTful APIs, Database interactions, Retrieval efficiency, Server-side caching strategies, System cohesiveness enhancement",
     ],
   },
   {
@@ -309,18 +317,51 @@ export const experience: ExperienceType[] = [
     date: 'From Sept. 2015 to Sept. 2016',
     desc: '',
     descBullets: [
-      "Implemented responsive UI with Angular, achieving 26.3% sales increase.",
-      "Created interactive e-commerce site with React, leading to 33.2% boost in sales revenue.",
-      "Developed custom WordPress plugins, streamlining checkout and increasing online sales by 12.5%."
+      "Successfully delivered multiple small-to-medium scale React projects, implementing industry Best practices and Emerging technologies. ",
+      "Leveraged cutting-edge React technologies to enhance UX and Application performance. ",
+      "Utilized an Agile development approach to ensure Timely delivery and high-quality outputs. ",
+      "Collaborated closely with designers, product managers, and backend developers to develop and refine user features. ",
+      "Conducted Thorough testing across different devices and browsers to ensure cross-device and cross-browser compatibility. ",
+      "Technologies: React projects, Best practices, Emerging technologies, User experience, Application performance, Agile development, Timely delivery, Collaboration, Thorough testing, Compatibility.",
     ],
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'Alma',
-    desc: 'An interactive playground for generative graphics. Combine nodes & logic into WebGL shaders - all through an intuitive no-code interface.',
-    github: 'https://github.com/czy30121/react-alma-app',
+    name: 'NFT Auction MarketPlace',
+    desc: 'Revolutionizing Digital Ownership: Explore a New Frontier in the NFT Auction Marketplace – Unleash the Power of Unique Digital Assets!',
+    link: 'https://nftrmarketplace.com/' 
+  },
+  {
+    name: 'Flockfysh',
+    desc: 'an open platform where users can build and buy/sell AI datasets and models.',
+    link: 'https://nftrmarketplace.com/' 
+  },
+  {
+    name: 'On-demand Delivery Service',
+    desc: 'A website that provides on-demand delivery services for a variety of products.',
+    link: 'https://glovoapp.com/'
+  },
+  {
+    name: 'Travel Service System',
+    desc: 'A Travel-related service system including hotel, vacatio, flights, and tours.',
+    link: 'https://www.bestday.com.mx/'
+  },
+  {
+    name: 'Osso Health Landing Page',
+    desc: 'A landing page of Osso Health, healthcare company focus on HECO device.',
+    link: 'https://osso-heco.webflow.io/'
+  },
+  {
+    name: 'e-Commerce Platform',
+    desc: 'A platform that provides features and Tools for creating and managing an online store.',
+    link: 'https://www.shuup.com/'
+  },
+  {
+    name: 'Next.js AI Chatbot',
+    desc: 'An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Vercel KV.',
+    github: 'https://github.com/czy30121/react-ai-chatbot',
   },
   {
     name: 'API Platform Admin',
@@ -328,9 +369,9 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/czy30121/react-admin-api',
   },
   {
-    name: 'Next.js AI Chatbot',
-    desc: 'An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Vercel KV.',
-    github: 'https://github.com/czy30121/react-ai-chatbot',
+    name: 'Alma',
+    desc: 'An interactive playground for generative graphics. Combine nodes & logic into WebGL shaders - all through an intuitive no-code interface.',
+    github: 'https://github.com/czy30121/react-alma-app',
   },
   {
     name: 'VueWordPress Theme',
